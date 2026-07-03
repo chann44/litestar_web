@@ -1,0 +1,10 @@
+[project]
+name = "litestar-web"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "litestar>=2.24.0",
+    "uvicorn>=0.49.0",
+]
