@@ -3,7 +3,7 @@ from litestar import Litestar
 from sqlalchemy import Boolean, Integer, String, Text
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column
 from collections.abc import AsyncGenerator
-from sqlalchemy.ext.asyncio import AsyncSession, async_sessionmaker, create_async_engine
+from sqlalchemy.ext.asyncio import  async_sessionmaker, create_async_engine
 
 
 

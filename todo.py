@@ -3,7 +3,7 @@ from sqlite3 import IntegrityError
 from litestar.datastructures import State
 from typing import Sequence
 from litestar import get, post
-from litestar.exceptions import ClientException, HTTPException, NotFoundException
+from litestar.exceptions import ClientException, NotFoundException
 from litestar.handlers import HTTPRouteHandler, put
 from litestar.params import FromPath, FromQuery
 from sqlalchemy import select
